@@ -41,6 +41,13 @@
   "bugs": {
     "url": "https://github.com/__USERNAME__/__MODULENAME__/issues"
   },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "main/",
+      "module/",
+      "types/"
+    ]
+  },
   "devDependencies": {
     "@babel/cli": "7.17.6",
     "@babel/core": "7.17.8",
